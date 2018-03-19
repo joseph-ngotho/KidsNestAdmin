@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "737113178347",
+    "firebase_url": "https://kidsnestadmin.firebaseio.com",
+    "project_id": "kidsnestadmin",
+    "storage_bucket": "kidsnestadmin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:737113178347:android:7387c9796311e35c",
+        "android_client_info": {
+          "package_name": "com.example.oriaso.kidsnestadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "737113178347-2bm6a7ogsn1g24268lgokcrtea560faj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.oriaso.kidsnestadmin",
+            "certificate_hash": "532b1ef4758f5071f6e5ca199c6c51e0de29e04a"
+          }
+        },
+        {
+          "client_id": "737113178347-6hs79850t0j6rqmt5n2fil09ve52keqe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXWBoqeVmWdwozgU5sZtMNxgy3J-7_S2g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "737113178347-6hs79850t0j6rqmt5n2fil09ve52keqe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

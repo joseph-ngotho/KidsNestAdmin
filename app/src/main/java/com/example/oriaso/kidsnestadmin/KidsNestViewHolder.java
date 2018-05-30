@@ -21,9 +21,10 @@ public class KidsNestViewHolder extends RecyclerView.ViewHolder {
     public KidsNestViewHolder(View itemView){
         super(itemView);
         this.mView = itemView;
-        textViewKidsNestListTitle = (TextView) itemView.findViewById(R.id.textViewKidsNestListTitle);
+        textViewKidsNestListTitle = (TextView) itemView.findViewById(R.id.textViewKidsNestListName);
+//        textViewKidsNestListTitle = (TextView) itemView.findViewById(R.id.textViewKidsNestListTitle);
 //        textViewNoticeListSource = (TextView) itemView.findViewById(R.id.textViewNewsListAuthor);
 //        textViewNoticeListSince = (RelativeTimeTextView) itemView.findViewById(R.id.textViewNoticeListSince);
-        imageViewNoticeListImage = (ImageView) itemView.findViewById(R.id.imageViewKidsNestListImage);
+//        imageViewNoticeListImage = (ImageView) itemView.findViewById(R.id.imageViewKidsNestListImage);
     }
 }

@@ -41,17 +41,17 @@ public class ListKidsNestActivity extends AppCompatActivity {
         firebasenewsRecycleAdapter = new FirebaseRecyclerAdapter<KidsNestModel, KidsNestViewHolder>(KidsNestModel.class, R.layout.kids_nest_list_item, KidsNestViewHolder.class, db.child("KidsNest")) {
             @Override
             protected void populateViewHolder(KidsNestViewHolder viewHolder, final KidsNestModel model, final int position) {
-                viewHolder.textViewKidsNestListName.setText(model.getName());
+                viewHolder.textViewKidsNestListTitle.setText(model.getName());
                 progressBarAgencyList.setVisibility(View.GONE);
                 viewHolder.mView.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                        openAgencyDetailActivity(model.getName(), model.getId(), model.getEmail(), model.getPhone(), model.getContactPerson(), model.getContactEmail(), model.getContactPhone(), model.imageUrl);
+                        openKidsNestDetailActivity(model.getName(), model.getId(), model.getEmail(), model.getPhone(), model.getContactPerson(), model.getContactEmail(), model.getContactPhone(), model.imageUrl);
                     }
                 });
             }
 
-            private void openAgencyDetailActivity(String name, String id, String email, String phone, String contact_person, String contact_email, String contact_phone, String imageUrl) {
+            private void openKidsNestDetailActivity(String name, String id, String email, String phone, String contact_person, String contact_email, String contact_phone, String imageUrl) {
 
                 Intent kidsNestIntent = new Intent(ListKidsNestActivity.this, ViewKidsNestActivity.class);
                 kidsNestIntent.putExtra("nameKey", name);
